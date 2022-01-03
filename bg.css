@@ -1,0 +1,40 @@
+/*для заднего фона*/
+body {
+    animation: body 120s ease-in-out infinite;
+    background-image: url(/static/bg.png);
+    backdrop-filter: blur(1.5px);
+    background-repeat: repeat;
+}
+ 
+@media (max-width: 620px) {
+    .body {
+        padding: 100px 20px;
+        font-size: 26px;
+    }
+}
+@keyframes body {
+    0% {
+        background-size: 120%;
+        background-position: 50% 50%
+    }
+    20% {
+        background-size: 150%;
+        background-position: 0 50%;
+    }    
+    40% {
+        background-size: 110%;
+        background-position: 20% 80%;
+    }
+    60% {
+        background-size: 160%;
+        background-position: 60% 10%;
+    }
+    80% {
+        background-size: 120%;
+        background-position: 40% 70%;
+    }    
+    100% {
+        background-size: 120%;
+        background-position: 50% 50%
+    }
+}
