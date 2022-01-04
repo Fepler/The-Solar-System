@@ -65,10 +65,4 @@ body {
     }
 }
 
-.loading-text {
-    position: absolute;
-    font-size: 100px;
-    color: #fff;
-    z-index: +2;
-    pointer-events: none;
-}
+
